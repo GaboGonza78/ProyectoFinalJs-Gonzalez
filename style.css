@@ -1,0 +1,70 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('./Images/Instrumentos.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+.content {
+    position: relative;
+    z-index: 1;
+}
+
+#productos {
+    margin-top: 100px;
+    font-size: 40px;
+    display: flex;
+    flex-direction: row;
+    color: bisque;
+    position: relative;
+    z-index: 2;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    gap: 60px;
+}
+
+/* Estilos para el botón Agregar */
+.Boton-agregar {
+    background-image: linear-gradient(to top, brown, red);
+    padding: 15px;
+    color: bisque;
+    margin: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilos para el botón Borrar */
+.Boton-borrador {
+    background-image: linear-gradient(to top, red, brown);
+    padding: 5px;
+    color: bisque;
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+h1 {
+    text-align: center;
+    margin-left: 140px;
+    margin-right: 140px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    font-size: 60px;
+    color: brown;
+}
+
+
+#carrito{
+    margin-top: 20px;
+    color: bisque;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
